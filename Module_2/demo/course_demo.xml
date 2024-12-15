@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="course_1" model="school.course">
+        <field name="title">Mathematics 101</field>
+        <field name="course_code">MATH101</field>
+        <field name="description">An introduction to basic mathematics concepts, including algebra and geometry.</field>
+    </record>
+    <record id="course_2" model="school.course">
+        <field name="title">Physics 101</field>
+        <field name="course_code">PHYS101</field>
+        <field name="description">Fundamentals of physics covering topics like motion, forces, and energy.</field>
+    </record>
+    <record id="course_3" model="school.course">
+        <field name="title">Chemistry 101</field>
+        <field name="course_code">CHEM101</field>
+        <field name="description">Basic principles of chemistry, including atomic structure, bonding, and reactions.</field>
+    </record>
+    <record id="course_4" model="school.course">
+        <field name="title">Biology 101</field>
+        <field name="course_code">BIO101</field>
+        <field name="description">Exploration of fundamental biological principles such as genetics, evolution, and cell structure.</field>
+    </record>
+    <record id="course_5" model="school.course">
+        <field name="title">History 201</field>
+        <field name="course_code">HIST201</field>
+        <field name="description">A survey of major historical events and their impact on the modern world.</field>
+    </record>
+    <record id="course_6" model="school.course">
+        <field name="title">Literature 101</field>
+        <field name="course_code">LIT101</field>
+        <field name="description">An introduction to classical and modern literature.</field>
+    </record>
+    <record id="course_7" model="school.course">
+        <field name="title">Computer Science 101</field>
+        <field name="course_code">CS101</field>
+        <field name="description">Fundamentals of programming, algorithms, and data structures.</field>
+    </record>
+    <record id="course_8" model="school.course">
+        <field name="title">Economics 101</field>
+        <field name="course_code">ECO101</field>
+        <field name="description">Introduction to microeconomics and macroeconomics concepts.</field>
+    </record>
+    <record id="course_9" model="school.course">
+        <field name="title">Philosophy 101</field>
+        <field name="course_code">PHIL101</field>
+        <field name="description">An introduction to philosophical thought and reasoning.</field>
+    </record>
+    <record id="course_10" model="school.course">
+        <field name="title">Art History 101</field>
+        <field name="course_code">ARTH101</field>
+        <field name="description">A study of artistic movements and key works from history.</field>
+    </record>
+    <record id="course_11" model="school.course">
+        <field name="title">Sociology 101</field>
+        <field name="course_code">SOC101</field>
+        <field name="description">Introduction to the study of society and human interactions.</field>
+    </record>
+    <record id="course_12" model="school.course">
+        <field name="title">Psychology 101</field>
+        <field name="course_code">PSY101</field>
+        <field name="description">Fundamentals of human psychology and behavior.</field>
+    </record>
+    <record id="course_13" model="school.course">
+        <field name="title">Business Management 101</field>
+        <field name="course_code">BM101</field>
+        <field name="description">Basic principles of business management and administration.</field>
+    </record>
+    <record id="course_14" model="school.course">
+        <field name="title">Marketing 101</field>
+        <field name="course_code">MKT101</field>
+        <field name="description">An overview of marketing concepts and strategies.</field>
+    </record>
+    <record id="course_15" model="school.course">
+        <field name="title">Environmental Science 101</field>
+        <field name="course_code">ENV101</field>
+        <field name="description">Study of environmental systems and sustainability practices.</field>
+    </record>
+    <record id="course_16" model="school.course">
+        <field name="title">Geography 101</field>
+        <field name="course_code">GEO101</field>
+        <field name="description">Introduction to physical and human geography.</field>
+    </record>
+    <record id="course_17" model="school.course">
+        <field name="title">Statistics 101</field>
+        <field name="course_code">STAT101</field>
+        <field name="description">Basic principles of statistics and data analysis.</field>
+    </record>
+    <record id="course_18" model="school.course">
+        <field name="title">Music Theory 101</field>
+        <field name="course_code">MUS101</field>
+        <field name="description">Introduction to music theory and composition.</field>
+    </record>
+    <record id="course_19" model="school.course">
+        <field name="title">Political Science 101</field>
+        <field name="course_code">POL101</field>
+        <field name="description">An introduction to political systems and theories.</field>
+    </record>
+    <record id="course_20" model="school.course">
+        <field name="title">Health and Wellness 101</field>
+        <field name="course_code">HLTH101</field>
+        <field name="description">Basic concepts of physical and mental health.</field>
+    </record>
+</odoo>

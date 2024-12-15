@@ -13,6 +13,6 @@
     <menuitem id="course_academy"
               name="Course Details"
               parent="student_root"
-              sequence="0"/>
+              sequence="1"/>
 
 </odoo>

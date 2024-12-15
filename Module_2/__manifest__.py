@@ -11,6 +11,7 @@
         'views/view_student.xml',
         'views/view_course.xml',
         'demo/student_demo_data.xml',
+        'demo/course_demo.xml',
     ],
     'installable': True,
     'application': True,

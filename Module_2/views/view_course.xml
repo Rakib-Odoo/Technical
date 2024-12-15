@@ -32,9 +32,9 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="title"/>
-                        <field name="course_code"/>
-                        <field name="description"/>
+                        <field name="title" placeholder="Write Course Title Here!"/>
+                        <field name="course_code" placeholder="Write Course Code Here!"/>
+                        <field name="description" placeholder="Write Course Description Here!"/>
                     </group>
                 </sheet>
             </form>
@@ -58,6 +58,6 @@
     <menuitem id="course_menu"
               name="Academy Course"
               parent="course_academy"
-              action=""
+              action="view_course_menu"
               sequence="0"/>
 </odoo>
