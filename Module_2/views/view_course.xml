@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
 
+    <record id="course_kanban_view" model="ir.ui.view">
+        <field name="name">school.course.kanban</field>
+        <field name="model">school.course</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="id"/>
+                <field name="title"/>
+                <field name="course_code"/>
+                <field name="description"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="oe_kanban_image">
+                                        <img t-att-src="kanban_image('school.course','image', record.id.raw_value)"
+                                             alt="avatar" class="o_image_64_contain"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="oe_kanban_details">
+                                        <ul>
+                                            <li>
+                                                <h3>
+                                                    <field name="title"/>
+                                                </h3>
+                                            </li>
+                                            <li>
+                                                <strong>Course Code :</strong>
+                                                <field name="course_code"/>
+                                            </li>
+                                            <li>
+                                                <strong>Description :</strong>
+                                                <field name="description"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
     <record id="course_search_view" model="ir.ui.view">
         <field name="name">school.course.search</field>
         <field name="model">school.course</field>
@@ -31,6 +77,8 @@
         <field name="arch" type="xml">
             <form>
                 <sheet>
+                    <label for="image"/>
+                    <field name="image" widget="image" class="oe_avatar"/>
                     <group>
                         <field name="title" placeholder="Write Course Title Here!"/>
                         <field name="course_code" placeholder="Write Course Code Here!"/>
@@ -44,7 +92,7 @@
     <record id="view_course_menu" model="ir.actions.act_window">
         <field name="name">Academy Course</field>
         <field name="res_model">school.course</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">tree,kanban,form</field>
         <field name="context">{}</field>
         <field name="domain">[]</field>
         <field name="help" type="html">

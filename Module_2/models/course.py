@@ -7,3 +7,4 @@ class SchoolCourse(models.Model):
     title = fields.Char(string='Course Title')
     course_code = fields.Char(string='Course Code')
     description = fields.Text(string='Description')
+    image = fields.Char(string='Image')
