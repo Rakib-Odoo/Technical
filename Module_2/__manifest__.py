@@ -9,6 +9,7 @@
         'security/ir.model.access.csv',
         'views/view_menu.xml',
         'views/view_student.xml',
+        'views/view_course.xml',
         'demo/student_demo_data.xml',
     ],
     'installable': True,
